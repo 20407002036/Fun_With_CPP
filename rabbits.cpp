@@ -1,4 +1,3 @@
-
 #include<iostream>
 
 using namespace std;
@@ -7,7 +6,7 @@ int rabbit(int n, int t)
 {
   int res;
 
-  if(t = 0) {
+  if(t == 0) {
     return n;
   }
 
@@ -23,15 +22,10 @@ int main()
 
   cout <<"Enter the No. Sunguras: ";
   cin >> n;
-
-  cout << "Sunguras: " << n;
   
   cout << "Enter No of Periods: ";
   cin>> t;
-  
-  cout << "Periods are : " << t;
-  cout << "Hello";
 
-  cout << "The Total Rabbits are " << rabbit(n, t);
+  cout << "The Total Rabbits Will be: " << rabbit(n, t) << endl;
   return 0;
 }

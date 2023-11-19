@@ -26,7 +26,7 @@ int main(){
     if (ans == "y" || ans == "Yes"){
       cout << "Enter Patient weight: ";
       cin >> height;
-
+ 
       count++;
       sum = sum + height;
 
