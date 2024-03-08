@@ -1,8 +1,0 @@
-#include<stdio.h>
-
-// Given array of distinct elemensts taken from 0 to n, find the missing
-int main() {
-
-
-  
-}
